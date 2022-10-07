@@ -1,0 +1,140 @@
+/* 
+    Kathryn Ikard 
+    CPSC 332
+    10/03/22
+    Homework 3 styleguide
+
+*/
+
+body {
+
+    background: repeating-linear-gradient(135deg, bisque, rgb(121, 121, 252))
+}
+
+#container {
+    display: flex;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+
+div {
+    display: flex;
+    border: 2px;
+    padding: 5px;
+}
+
+nav {
+    flex: 0 1 100%;
+    background-color: rgba(247, 192, 52, 0.856);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+nav div {
+    flex-direction: row;
+    padding: 5px;
+}
+
+.columns {
+    flex: 1 1 0px;
+    justify-content: space-around;
+}
+
+a {
+    color: navy;
+}
+
+a:visited {
+    color: rgb(255, 0, 255);
+}
+
+aside {
+    flex: 0 1 30%;
+    background: linear-gradient(cornflowerblue, rgba(247, 192, 52, 0.685), pink);
+    padding: 5px;
+    border-radius: 7px;
+    ;
+}
+
+main {
+    flex: 0 1 70%;
+    background-color: rgba(255, 243, 226, 0.897);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px red solid;
+    border-radius: 10px;
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: square;
+    list-style-position: outside;
+    /* list-style-image: url('carrot-icon.png'); Image is just too big*/
+    color: navy;
+    font-size: large;
+    background-color: rgba(188, 247, 247, 0.699);
+}
+
+h3 {
+    padding: 5px;
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+}
+
+div>table {
+    background-color: bisque;
+    border: 2px navy solid;
+}
+
+th,
+td {
+    padding: 5px;
+    border: 2px navy solid;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(144, 243, 247, 0.493);
+}
+
+caption {
+    color: navy;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+a>img {
+    border: 3px red solid;
+    border-radius: 10px;
+    width: 80px;
+}
+
+li>img::hover {
+    box-shadow: 0 0 4px 1px goldenrod;
+}
+
+p {
+    color: navy;
+    font-size: medium;
+}
